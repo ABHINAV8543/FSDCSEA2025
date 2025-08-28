@@ -1,0 +1,23 @@
+/* body{
+    background-color: black;
+}
+h2, h3, h4{
+    background-color: pink;
+}
+#heading4{
+    font-family: 'Times New Roman', Times, serif;
+    color: brown;
+} */
+
+/* div~p{
+    background-color: aqua;
+} */
+
+p:nth-child(2){
+    background-color: blueviolet;
+    color: bisque;
+}
+div p:nth-of-type(t){
+    background-color: blue;
+    color: aliceblue;
+}
