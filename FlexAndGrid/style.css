@@ -1,34 +1,55 @@
 .container{
     display: grid;
-    /* grid-template-columns: 200px 300px 400px; */
     grid-template-columns: repeat(4,1fr);
-    grid-template-rows: 200px 500px 200px;
-    /* flex-direction: row-reverse; */
-    border: 1px solid red;
-    /* flex-wrap: wrap; */
-    /* justify-content: space-around; */
+    grid-template-rows: 500px 500px 200px;
+    border:1px solid red;
 }
 .child1{
-    border: 1px dotted violet;
-    height: 300px;
-    width: 300px;
-    background-color: black;
+    border:1px dotted violet;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(2,1fr);
+    background-color: aqua;
+}
+.child11{
+    border: 2px solid red;
+    height: 100px;
+    width: 100px;
+    background-color: aquamarine;
+}
+.child12{
+    border: 1px solid cyan;
+    height: 100px;
+    width: 100px;
+    background-color: chocolate;
+}
+.child13{
+    border:2px solid blueviolet;
+    height: 100px;
+    width: 100px;
+    background-color: coral;
+}
+.child14{
+    border: 2px solid greenyellow;
+    height: 100px;
+    width: 100px;
+    background-color: crimson;
 }
 .child2{
-    border: 1px dotted rgb(130, 198, 238);
-    height: 300px;
-    width: 300px;
-    background-color: blueviolet;
+    border:1px dotted green;
+    /* height:300px;
+    width:300px; */
+    background-color: red;
 }
 .child3{
-    border: 1px dotted rgb(238, 238, 130);
-    height: 300px;
-    width: 300px;
-    background-color: bisque;
+    border:1px dotted blue;
+    /* height:300px;
+    width:300px; */
+    background-color: yellow;
 }
 .child4{
-    border: 1px dotted rgb(238, 143, 130);
-    height: 300px;
-    width: 300px;
-    background-color: azure;
+    border:1px dotted;
+    /* height:300px;
+    width:300px; */
+    background-color: orange;
 }
