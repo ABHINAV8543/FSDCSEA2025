@@ -4,7 +4,7 @@ body{
 .container{
     display: grid;
     grid-template-columns: repeat(4,1fr);
-    grid-template-rows: 50px 30px 500px;
+    grid-template-rows: 50px 30px 500px 300px;
     border:1px solid red;
 }
 .topheader{
@@ -42,6 +42,8 @@ h4{
     grid-column-end: 3;
 }
 .child1{
+    grid-row-start: 3;
+    grid-row-end: 4;
     border:1px dotted powderblue;
     display: grid;
     grid-template-columns: repeat(2,1fr);
@@ -53,4 +55,11 @@ h4{
     border: 2px solid pink;
     height: 125px;
     background-color: aquamarine;
+}
+.footer{
+    background-color: greenyellow;
+    grid-column-start: 1;
+    grid-column-end: 5;
+    display: flex;
+    justify-content: space-evenly;
 }
