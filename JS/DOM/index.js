@@ -110,7 +110,7 @@ async function doubleHandler() {
     console.log(data);
     console.log("first data", data[0]);
     const html = `
-    <div style="display: flex; flex-direction: row; gap:10px;">
+    <div style="display: flex;">
     <img src="${data[0].image}" style="height=100px; width:75px;">
     <p>Title: ${data[0].title} </p>
     <p>Id: ${data[0].id}</p>
